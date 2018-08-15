@@ -1,7 +1,7 @@
 wrk.method = "POST"
 wrk.headers["Content-Type"] = "application/json"
 
-wrk.headers["Cookie"] = "SPC_EC=crvKNQmP+kLFkC097DL4Aof0YlRuxLfy8CmOKZT7zK4AcsMYBAT1P8fwCDDvod2L6u9EXosq5Ogwm/8Ktxkbl7v8G1jeCe3Xa1SQcsXND0g72JKWpSJCLLRCp0T7uVmp5zxYX+7MXsn4W+rjZMU+3w=="
+wrk.headers["Cookie"] = "SPC_EC=OaYlvq49yYhOlsFidmpTf0f9IfpsvXrrX92DAz2sc38hjELmXt4CgIiU6N1yugH24Cw0pgzl60mj2wMECvU4Ctu0hyia0f+gLcsito8bE4CSB4452/gF/fv6KBn/GjQuyUNdSZFoIQKm1ilga0mI5A=="
 counter = 1
 
 charset = {}  do -- [0-9a-zA-Z]
