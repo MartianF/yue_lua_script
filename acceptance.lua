@@ -22,6 +22,6 @@ request = function()
     userid = math.random(100000, 300000)
     username = randomString(10)
     path = "/gameabr/api/v1/536/932/group/"..groupid.."/acceptance/"
-    body = "{\"userid\":"..userid..",\"username\":\"..username.."\",\"avatar\":\"\"}"
+    body = "{\"userid\":\""..userid.."\",\"username\":\""..username.."\",\"avatar\":\"\"}"
     return wrk.format(nil,path,nil,body)
 end
